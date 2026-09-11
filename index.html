@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BIZZYBRAINZOO | Laundry & Drycleaning Services</title>
+
+    <meta
+        name="description"
+        content="BIZZYBRAINZOO Laundry & Drycleaning Services. Premium washing, ironing, dry cleaning, pickup and delivery."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         TOP ANNOUNCEMENT
+    ========================== -->
+
+    <div class="announcement">
+        <div class="container announcement-inner">
+            <span>
+                <i class="fa-solid fa-sparkles"></i>
+                Premium Laundry & Drycleaning Services
+            </span>
+
+            <span class="announcement-phone">
+                <i class="fa-brands fa-whatsapp"></i>
+                08037275936
+            </span>
+        </div>
+    </div>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="header" id="header">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <div class="logo-mark">
+                    <i class="fa-solid fa-shirt"></i>
+                </div>
+
+                <div class="logo-text">
+                    <strong>BIZZYBRAINZOO</strong>
+                    <span>LAUNDRY & DRYCLEANING</span>
+                </div>
+            </a>
+
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <button class="login-btn" onclick="openLoginModal()">
+                    <i class="fa-regular fa-user"></i>
+                    Login
+                </button>
+
+                <button class="book-btn" onclick="openBookingModal()">
+                    Book Pickup
+                </button>
+
+                <button class="menu-btn" id="menuBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-crown"></i>
+                        PREMIUM CLOTHING CARE
+                    </div>
+
+                    <h1>
+                        From Messy to
+                        <span>Sparkling Immaculate.</span>
+                    </h1>
+
+                    <p>
+                        Professional laundry and drycleaning services
+                        designed to keep your clothes looking fresh,
+                        elegant and perfectly cared for.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <button
+                            class="primary-btn"
+                            onclick="openBookingModal()"
+                        >
+                            <i class="fa-solid fa-truck-fast"></i>
+                            Book a Pickup
+                        </button>
+
+                        <a href="#services" class="secondary-btn">
+                            Explore Services
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-trust">
+
+                        <div class="trust-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Professional Care</span>
+                        </div>
+
+                        <div class="trust-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Pickup & Delivery</span>
+                        </div>
+
+                        <div class="trust-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Customer Support</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             QUICK STATS
+        ========================== -->
+
+        <section class="stats-section">
+
+            <div class="container stats-grid">
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+
+                    <div>
+                        <strong>Premium Care</strong>
+                        <span>For Every Garment</span>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+
+                    <div>
+                        <strong>Pickup & Delivery</strong>
+                        <span>We Come To You</span>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+
+                    <div>
+                        <strong>Customer Care</strong>
+                        <span>We're Here To Help</span>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-shield-heart"></i>
+                    </div>
+
+                    <div>
+                        <strong>Trusted Service</strong>
+                        <span>Quality First</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
+
+        <section class="section services-section" id="services">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        OUR SERVICES
+                    </span>
+
+                    <h2>
+                        Care That Makes
+                        <span>Your Clothes Shine</span>
+                    </h2>
+
+                    <p>
+                        From everyday clothing to delicate and premium
+                        garments, we provide professional care tailored
+                        to your needs.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+
+                    <article class="service-card">
+
+                        <div class="service-image washing-image">
+                            <div class="service-number">01</div>
+                        </div>
+
+                        <div class="service-content">
+
+                            <div class="service-icon">
+                                <i class="fa-solid fa-soap"></i>
+                            </div>
+
+                            <h3>Washing</h3>
+
+                            <p>
+                                Professional washing with careful handling
+                                to keep your garments fresh and clean.
+                            </p>
+
+                            <button onclick="selectService('Washing')">
+                                Select Service
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-image ironing-image">
+                            <div class="service-number">02</div>
+                        </div>
+
+                        <div class="service-content">
+
+                            <div class="service-icon">
+                                <i class="fa-solid fa-temperature-low"></i>
+                            </div>
+
+                            <h3>Ironing</h3>
+
+                            <p>
+                                Crisp, neat and professionally pressed
+                                garments ready for your next occasion.
+                            </p>
+
+                            <button onclick="selectService('Ironing')">
+                                Select Service
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-image drycleaning-image">
+                            <div class="service-number">03</div>
+                        </div>
+
+                        <div class="service-content">
+
+                            <div class="service-icon">
+                                <i class="fa-solid fa-spray-can-sparkles"></i>
+                            </div>
+
+                            <h3>Dry Cleaning</h3>
+
+                            <p>
+                                Specialist garment care for suits, gowns,
+                                premium fabrics and delicate clothing.
+                            </p>
+
+                            <button onclick="selectService('Dry Cleaning')">
+                                Select Service
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-image delivery-image">
+                            <div class="service-number">04</div>
+                        </div>
+
+                        <div class="service-content">
+
+                            <div class="service-icon">
+                                <i class="fa-solid fa-truck-fast"></i>
+                            </div>
+
+                            <h3>Pickup & Delivery</h3>
+
+                            <p>
+                                Save time with convenient pickup and delivery
+                                straight to your preferred location.
+                            </p>
+
+                            <button onclick="selectService('Pickup & Delivery')">
+                                Select Service
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-image consultation-image">
+                            <div class="service-number">05</div>
+                        </div>
+
+                        <div class="service-content">
+
+                            <div class="service-icon">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+
+                            <h3>Consultation</h3>
+
+                            <p>
+                                Get professional guidance on garment care,
+                                laundry processes and clothing maintenance.
+                            </p>
+
+                            <button onclick="selectService('Consultation')">
+                                Select Service
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-image training-image">
+                            <div class="service-number">06</div>
+                        </div>
+
+                        <div class="service-content">
+
+                            <div class="service-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+
+                            <h3>Training</h3>
+
+                            <p>
+                                Learn professional laundry and drycleaning
+                                techniques through practical training.
+                            </p>
+
+                            <button onclick="selectService('Training')">
+                                Select Service
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CUSTOMER ACCOUNT
+        ========================== -->
+
+        <section class="account-preview">
+
+            <div class="container">
+
+                <div class="account-box">
+
+                    <div class="account-content">
+
+                        <span class="eyebrow">
+                            YOUR PERSONAL ACCOUNT
+                        </span>
+
+                        <h2>
+                            Everything About Your
+                            <span>Laundry In One Place.</span>
+                        </h2>
+
+                        <p>
+                            Create your personal BIZZYBRAINZOO account
+                            and keep track of your orders, payments,
+                            pickup dates and delivery information.
+                        </p>
+
+
+                        <div class="account-features">
+
+                            <div>
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <span>Order History</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-receipt"></i>
+                                <span>Transaction History</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-calendar-check"></i>
+                                <span>Pickup & Delivery Dates</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-bell"></i>
+                                <span>Notifications</span>
+                            </div>
+
+                        </div>
+
+
+                        <button
+                            class="primary-btn"
+                            onclick="openLoginModal()"
+                        >
+                            <i class="fa-brands fa-google"></i>
+                            Sign In With Google
+                        </button>
+
+                    </div>
+
+
+                    <div class="account-dashboard-preview">
+
+                        <div class="dashboard-top">
+
+                            <div>
+                                <small>PERSONAL DASHBOARD</small>
+                                <strong>Welcome Back</strong>
+                            </div>
+
+                            <div class="profile-circle">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="dashboard-status">
+
+                            <div>
+                                <small>ACTIVE ORDERS</small>
+                                <strong>01</strong>
+                            </div>
+
+                            <div>
+                                <small>COMPLETED</small>
+                                <strong>14</strong>
+                            </div>
+
+                            <div>
+                                <small>PAYMENT</small>
+                                <strong>PAID</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="mini-order">
+
+                            <div class="mini-order-icon">
+                                <i class="fa-solid fa-shirt"></i>
+                            </div>
+
+                            <div class="mini-order-info">
+                                <strong>BZ-1024</strong>
+                                <span>Dry Cleaning</span>
+                            </div>
+
+                            <span class="status-processing">
+                                Processing
+                            </span>
+
+                        </div>
+
+
+                        <div class="mini-timeline">
+
+                            <div class="timeline-line"></div>
+
+                            <div class="timeline-item completed">
+                                <span></span>
+                                <div>
+                                    <strong>Order Received</strong>
+                                    <small>Completed</small>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item completed">
+                                <span></span>
+                                <div>
+                                    <strong>Pickup</strong>
+                                    <small>Scheduled</small>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item current">
+                                <span></span>
+                                <div>
+                                    <strong>Cleaning</strong>
+                                    <small>In Progress</small>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <span></span>
+                                <div>
+                                    <strong>Delivery</strong>
+                                    <small>Pending</small>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HOW IT WORKS
+        ========================== -->
+
+        <section class="section how-section" id="how-it-works">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        SIMPLE PROCESS
+                    </span>
+
+                    <h2>
+                        Laundry Made
+                        <span>Easy.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="steps-grid">
+
+                    <div class="step-card">
+
+                        <div class="step-number">01</div>
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-calendar-plus"></i>
+                        </div>
+
+                        <h3>Book Your Pickup</h3>
+
+                        <p>
+                            Choose your service and schedule a convenient
+                            pickup date.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-card">
+
+                        <div class="step-number">02</div>
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-truck"></i>
+                        </div>
+
+                        <h3>We Pick Up</h3>
+
+                        <p>
+                            Our team collects your clothes from your
+                            selected location.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-card">
+
+                        <div class="step-number">03</div>
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+
+                        <h3>We Clean</h3>
+
+                        <p>
+                            Your garments receive professional cleaning
+                            and finishing.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-card">
+
+                        <div class="step-number">04</div>
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-house-circle-check"></i>
+                        </div>
+
+                        <h3>We Deliver</h3>
+
+                        <p>
+                            Your clean and carefully finished clothes are
+                            delivered back to you.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PRICING
+        ========================== -->
+
+        <section class="section pricing-section" id="pricing">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        PREMIUM SERVICES
+                    </span>
+
+                    <h2>
+                        Our Service
+                        <span>Categories</span>
+                    </h2>
+
+                    <p>
+                        Pricing can be managed from the secure
+                        administrator dashboard.
+                    </p>
+
+                </div>
+
+
+                <div class="pricing-grid">
+
+
+                    <div class="price-card">
+
+                        <div class="price-header">
+                            <span>EVERYDAY CARE</span>
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+
+                        <h3>Washing & Ironing</h3>
+
+                        <p>
+                            Professional cleaning and finishing for
+                            everyday garments.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Washing
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Ironing
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Garment finishing
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Pickup available
+                            </li>
+                        </ul>
+
+                        <button onclick="openBookingModal()">
+                            Request Service
+                        </button>
+
+                    </div>
+
+
+                    <div class="price-card featured">
+
+                        <div class="popular">
+                            PREMIUM
+                        </div>
+
+                        <div class="price-header">
+                            <span>PREMIUM CARE</span>
+                            <i class="fa-solid fa-crown"></i>
+                        </div>
+
+                        <h3>Dry Cleaning</h3>
+
+                        <p>
+                            Specialist care for delicate, premium and
+                            special garments.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Premium garment care
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Professional pressing
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Quality inspection
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Pickup & delivery
+                            </li>
+                        </ul>
+
+                        <button onclick="openBookingModal()">
+                            Request Service
+                        </button>
+
+                    </div>
+
+
+                    <div class="price-card">
+
+                        <div class="price-header">
+                            <span>BUSINESS</span>
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+
+                        <h3>Consultation & Training</h3>
+
+                        <p>
+                            Professional guidance and practical laundry
+                            business training.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Consultation
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Practical training
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Laundry knowledge
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Professional guidance
+                            </li>
+                        </ul>
+
+                        <button onclick="openBookingModal()">
+                            Contact Us
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CUSTOMER CARE AI
+        ========================== -->
+
+        <section class="ai-section">
+
+            <div class="container">
+
+                <div class="ai-box">
+
+                    <div class="ai-content">
+
+                        <span class="eyebrow">
+                            CUSTOMER CARE
+                        </span>
+
+                        <h2>
+                            Need Help?
+                            <span>We're Always Here.</span>
+                        </h2>
+
+                        <p>
+                            Our customer-care system is designed to help
+                            customers with order information, pickup dates,
+                            delivery updates, payment status and complaints.
+                        </p>
+
+
+                        <div class="ai-features">
+
+                            <div>
+                                <i class="fa-solid fa-comments"></i>
+                                <span>Order Questions</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-calendar"></i>
+                                <span>Pickup & Delivery</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-credit-card"></i>
+                                <span>Payment Information</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-headset"></i>
+                                <span>Complaint Support</span>
+                            </div>
+
+                        </div>
+
+
+                        <button
+                            class="whatsapp-btn"
+                            onclick="openWhatsApp()"
+                        >
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Chat on WhatsApp
+                        </button>
+
+                    </div>
+
+
+                    <div class="ai-chat-preview">
+
+                        <div class="chat-header">
+
+                            <div class="ai-avatar">
+                                <i class="fa-solid fa-sparkles"></i>
+                            </div>
+
+                            <div>
+                                <strong>BIZZYBRAINZOO CARE</strong>
+                                <small>
+                                    Customer Support
+                                </small>
+                            </div>
+
+                            <span class="online-dot"></span>
+
+                        </div>
+
+
+                        <div class="chat-messages">
+
+                            <div class="message customer-message">
+                                Hello, when will my clothes be delivered?
+                            </div>
+
+                            <div class="message ai-message">
+                                Hello! Your order information can be
+                                checked securely from your account.
+                            </div>
+
+                            <div class="message customer-message">
+                                What about my payment?
+                            </div>
+
+                            <div class="message ai-message">
+                                Your account can show whether your order
+                                is paid, partially paid or pending.
+                            </div>
+
+                        </div>
+
+
+                        <div class="chat-input-preview">
+                            <span>Type your message...</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             REVIEWS
+        ========================== -->
+
+        <section class="section reviews-section" id="reviews">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        CUSTOMER REVIEWS
+                    </span>
+
+                    <h2>
+                        What Our Customers
+                        <span>Say</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="reviews-grid">
+
+
+                    <article class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "The finishing was excellent. My clothes came
+                            back looking fresh and properly pressed. I
+                            really loved the service."
+                        </p>
+
+                        <div class="review-author">
+
+                            <div class="review-avatar">
+                                AO
+                            </div>
+
+                            <div>
+                                <strong>Amaka Okafor</strong>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "Pickup and delivery made everything so easy.
+                            I didn't have to worry about carrying my clothes
+                            around."
+                        </p>
+
+                        <div class="review-author">
+
+                            <div class="review-avatar">
+                                DM
+                            </div>
+
+                            <div>
+                                <strong>David Martins</strong>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "Very professional service. The dry cleaning
+                            quality was impressive and the communication
+                            was great."
+                        </p>
+
+                        <div class="review-author">
+
+                            <div class="review-avatar">
+                                TO
+                            </div>
+
+                            <div>
+                                <strong>Tosin Ojo</strong>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "I love how convenient the service is. Booking
+                            a pickup is simple and my clothes always look
+                            neat afterwards."
+                        </p>
+
+                        <div class="review-author">
+
+                            <div class="review-avatar">
+                                FN
+                            </div>
+
+                            <div>
+                                <strong>Favour Nwosu</strong>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "Professional, reliable and very careful with
+                            garments. I would definitely recommend
+                            BIZZYBRAINZOO."
+                        </p>
+
+                        <div class="review-author">
+
+                            <div class="review-avatar">
+                                SK
+                            </div>
+
+                            <div>
+                                <strong>Samuel Kalu</strong>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT CTA
+        ========================== -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            READY WHEN YOU ARE
+                        </span>
+
+                        <h2>
+                            Give Your Clothes
+                            <span>The Care They Deserve.</span>
+                        </h2>
+
+                        <p>
+                            Book a pickup today or speak directly with
+                            our customer-care team.
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-actions">
+
+                        <button
+                            class="primary-btn"
+                            onclick="openBookingModal()"
+                        >
+                            Book a Pickup
+                        </button>
+
+                        <button
+                            class="whatsapp-btn"
+                            onclick="openWhatsApp()"
+                        >
+                            <i class="fa-brands fa-whatsapp"></i>
+                            WhatsApp Us
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+
+                    <div class="logo-mark">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+
+                    <div class="logo-text">
+                        <strong>BIZZYBRAINZOO</strong>
+                        <span>LAUNDRY & DRYCLEANING</span>
+                    </div>
+
+                </a>
+
+                <p>
+                    From Messy to Sparkling Immaculate.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a
+                        href="https://wa.me/2348037275936"
+                        target="_blank"
+                        aria-label="WhatsApp"
+                    >
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Quick Links</h4>
+
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Services</h4>
+
+                <a href="#services">Washing</a>
+                <a href="#services">Ironing</a>
+                <a href="#services">Dry Cleaning</a>
+                <a href="#services">Pickup & Delivery</a>
+                <a href="#services">Training</a>
+
+            </div>
+
+
+            <div class="footer-column contact-column">
+
+                <h4>Contact Us</h4>
+
+                <a href="tel:08037275936">
+                    <i class="fa-solid fa-phone"></i>
+                    08037275936
+                </a>
+
+                <a href="tel:09030509833">
+                    <i class="fa-solid fa-phone"></i>
+                    09030509833
+                </a>
+
+                <a href="tel:07025661448">
+                    <i class="fa-solid fa-phone"></i>
+                    07025661448
+                </a>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    7 ALHAJI KOSA STREET, OFF ARO BABA ROAD,
+                    PIPELINE MARKET, IDIMU, LAGOS.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    © <span id="currentYear"></span>
+                    BIZZYBRAINZOO Laundry & Drycleaning Services.
+                    All Rights Reserved.
+                </p>
+
+                <div>
+                    <span>Privacy</span>
+                    <span>Terms</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         BOOKING MODAL
+    ========================== -->
+
+    <div class="modal-overlay" id="bookingModal">
+
+        <div class="modal">
+
+            <button
+                class="modal-close"
+                onclick="closeBookingModal()"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+
+            <div class="modal-heading">
+
+                <span class="eyebrow">
+                    BOOK A SERVICE
+                </span>
+
+                <h2>
+                    Schedule Your
+                    <span>Pickup</span>
+                </h2>
+
+                <p>
+                    Enter your details and our team will contact you.
+                </p>
+
+            </div>
+
+
+            <form id="bookingForm">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>Full Name</label>
+
+                        <input
+                            type="text"
+                            id="customerName"
+                            placeholder="Your full name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>Phone Number</label>
+
+                        <input
+                            type="tel"
+                            id="customerPhone"
+                            placeholder="080..."
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Address</label>
+
+                    <input
+                        type="text"
+                        id="customerAddress"
+                        placeholder="Pickup address"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>Pickup Date</label>
+
+                        <input
+                            type="date"
+                            id="pickupDate"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>Number of Items</label>
+
+                        <input
+                            type="number"
+                            id="itemCount"
+                            min="1"
+                            placeholder="e.g. 10"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Select Services</label>
+
+                    <div class="service-checkboxes">
+
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="service"
+                                value="Washing"
+                            >
+                            Washing
+                        </label>
+
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="service"
+                                value="Ironing"
+                            >
+                            Ironing
+                        </label>
+
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="service"
+                                value="Dry Cleaning"
+                            >
+                            Dry Cleaning
+                        </label>
+
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="service"
+                                value="Pickup & Delivery"
+                            >
+                            Pickup & Delivery
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Additional Note</label>
+
+                    <textarea
+                        id="customerNote"
+                        rows="4"
+                        placeholder="Tell us anything we should know..."
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="submit-btn"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Send Booking Request
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         LOGIN MODAL
+    ========================== -->
+
+    <div class="modal-overlay" id="loginModal">
+
+        <div class="modal login-modal">
+
+            <button
+                class="modal-close"
+                onclick="closeLoginModal()"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+
+            <div class="login-logo">
+                <div class="logo-mark">
+                    <i class="fa-solid fa-shirt"></i>
+                </div>
+            </div>
+
+
+            <div class="modal-heading">
+
+                <span class="eyebrow">
+                    CUSTOMER ACCOUNT
+                </span>
+
+                <h2>
+                    Welcome To
+                    <span>BIZZYBRAINZOO</span>
+                </h2>
+
+                <p>
+                    Sign in to access your personal customer dashboard.
+                </p>
+
+            </div>
+
+
+            <button
+                class="google-login-btn"
+                onclick="googleLogin()"
+            >
+                <i class="fa-brands fa-google"></i>
+                Continue With Google
+            </button>
+
+
+            <div class="login-divider">
+                <span>Your account is private and secure</span>
+            </div>
+
+
+            <div class="login-info">
+
+                <div>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <span>View your order history</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-receipt"></i>
+                    <span>Track your transactions</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-truck"></i>
+                    <span>Track pickup & delivery</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         AI CHAT BUTTON
+    ========================== -->
+
+    <button
+        class="floating-chat"
+        onclick="openWhatsApp()"
+        aria-label="Customer care"
+    >
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span class="chat-tooltip">
+            Chat with us
+        </span>
+
+    </button>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
